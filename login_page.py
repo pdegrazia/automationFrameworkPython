@@ -11,4 +11,8 @@ class AutomationFramework():
     @staticmethod
     def go():
         driver= webdriver.Firefox()
-        driver.get('http://google.com')
+        driver.get('http://localhost:8080/index2.html')
+
+    @staticmethod
+    def quit():
+        pass
